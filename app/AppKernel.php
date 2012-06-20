@@ -16,6 +16,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\DoctrineBundle\DoctrineBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Lyra\AdminBundle\LyraAdminBundle(),
+            new MGI\BlogBundle\MGIBlogBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

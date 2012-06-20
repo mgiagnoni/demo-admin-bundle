@@ -1,6 +1,8 @@
 imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
+    - { resource: '@MGIBlogBundle/Resources/config/lyra_admin.yml'}
+
 
 framework:
     secret:          %secret%

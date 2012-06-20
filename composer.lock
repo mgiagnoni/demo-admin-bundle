@@ -1,5 +1,5 @@
 {
-    "hash": "2d10c1040830ef04d782e0796caef7c3",
+    "hash": "1a19d3e2c012724902e9ddfb17fa6dc9",
     "packages": [
         {
             "package": "doctrine/common",
@@ -25,6 +25,11 @@
             "package": "lyra/admin-bundle",
             "version": "dev-master",
             "source-reference": "9159bbbbf2c80d9eba0c5e753cd56a5e492acf14"
+        },
+        {
+            "package": "mgiagnoni/blog-bundle",
+            "version": "dev-master",
+            "source-reference": "f539f5b743295c0a33432eff62a5abf88d807ebc"
         },
         {
             "package": "monolog/monolog",
@@ -85,6 +90,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "twig/extensions": 20,
-        "lyra/admin-bundle": 20
+        "lyra/admin-bundle": 20,
+        "mgiagnoni/blog-bundle": 20
     }
 }
