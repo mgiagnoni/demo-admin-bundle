@@ -1,0 +1,25 @@
+#!/usr/bin/env php
+<?php
+
+/*
+ * A modified version of the 'vendors' script included in Symfony Standard Edition.
+ *
+ * (c) Fabien Potencier <fabien@symfony.com>
+ *
+ * The part to install dependencies has been removed because Composer is used in place of
+ * deps and deps.lock files
+ */
+
+$rootDir = dirname(__DIR__);
+
+// php on windows can't use the shebang line from system()
+$interpreter = PHP_OS == 'WINNT' ? 'php.exe' : '';
+
+// Update the bootstrap files
+system(sprintf('%s %s', $interpreter, escapeshellarg($rootDir.'/bin/build_bootstrap.php')));
+
+// Update assets
+system(sprintf('%s %s assets:install %s', $interpreter, escapeshellarg($rootDir.'/app/console'), escapeshellarg($rootDir.'/web/')));
+
+// Remove the cache
+system(sprintf('%s %s cache:clear --no-warmup', $interpreter, escapeshellarg($rootDir.'/app/console')));
