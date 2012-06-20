@@ -1,0 +1,90 @@
+{
+    "hash": "2d10c1040830ef04d782e0796caef7c3",
+    "packages": [
+        {
+            "package": "doctrine/common",
+            "version": "2.1.x-dev",
+            "source-reference": "41794945e795e108060eddb3342c9e13524b9b3e"
+        },
+        {
+            "package": "doctrine/dbal",
+            "version": "2.1.x-dev",
+            "source-reference": "76799960a54af583e82bedcf246e8c9c18006e94"
+        },
+        {
+            "package": "doctrine/orm",
+            "version": "2.1.x-dev",
+            "source-reference": "417b6b0e5e81c4da90745728b3f05bd5fcb5cccd"
+        },
+        {
+            "package": "kriswallsmith/assetic",
+            "version": "1.0.x-dev",
+            "source-reference": "ed9bf0fcc710e26051ac656b4d6b1a53381da160"
+        },
+        {
+            "package": "lyra/admin-bundle",
+            "version": "dev-master",
+            "source-reference": "9159bbbbf2c80d9eba0c5e753cd56a5e492acf14"
+        },
+        {
+            "package": "monolog/monolog",
+            "version": "1.1.0"
+        },
+        {
+            "package": "sensio/distribution-bundle",
+            "version": "2.0.x-dev",
+            "source-reference": "41a6c5caed65f02bb09c95a90579f047616471fd"
+        },
+        {
+            "package": "sensio/generator-bundle",
+            "version": "2.0.x-dev",
+            "source-reference": "c0118ce370f8da20e43051f2dd1ae331a202ab9c"
+        },
+        {
+            "package": "swiftmailer/swiftmailer",
+            "version": "dev-master",
+            "alias-pretty-version": "4.1.x-dev",
+            "alias-version": "4.1.9999999.9999999-dev"
+        },
+        {
+            "package": "swiftmailer/swiftmailer",
+            "version": "dev-master",
+            "source-reference": "0509c682d482940949ea7f7128c582d9d8b628e2"
+        },
+        {
+            "package": "symfony/assetic-bundle",
+            "version": "2.0.x-dev",
+            "source-reference": "fbcbaf46df2aa143759319de205e1babcf7dd87d"
+        },
+        {
+            "package": "symfony/symfony",
+            "version": "2.0.x-dev",
+            "source-reference": "e78a7baeac0a8fb31de4bf92e5b6efd7e3baec59"
+        },
+        {
+            "package": "twig/extensions",
+            "version": "dev-master",
+            "source-reference": "feb6d3f10c411e2631997c0a905aa581c80305c1"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "alias-pretty-version": "1.8.x-dev",
+            "alias-version": "1.8.9999999.9999999-dev"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "source-reference": "4679ad51c5390648b7ea4c8f0ecd2c0c344145ba"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "twig/extensions": 20,
+        "lyra/admin-bundle": 20
+    }
+}
