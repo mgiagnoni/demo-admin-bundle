@@ -1,5 +1,5 @@
 {
-    "hash": "1a19d3e2c012724902e9ddfb17fa6dc9",
+    "hash": "f1eee09b2b00a1dd0bea6d43a6942af2",
     "packages": [
         {
             "package": "doctrine/common",
@@ -23,8 +23,8 @@
         },
         {
             "package": "lyra/admin-bundle",
-            "version": "dev-master",
-            "source-reference": "9159bbbbf2c80d9eba0c5e753cd56a5e492acf14"
+            "version": "2.0.x-dev",
+            "source-reference": "a93fc4b97c232bfc3331cb9afc89fe75c167ab0b"
         },
         {
             "package": "mgiagnoni/blog-bundle",
@@ -54,7 +54,13 @@
         {
             "package": "swiftmailer/swiftmailer",
             "version": "dev-master",
-            "source-reference": "0509c682d482940949ea7f7128c582d9d8b628e2"
+            "alias-pretty-version": "4.2.x-dev",
+            "alias-version": "4.2.9999999.9999999-dev"
+        },
+        {
+            "package": "swiftmailer/swiftmailer",
+            "version": "dev-master",
+            "source-reference": "627e1f7a7952e6659d7125931024a97a5482a15c"
         },
         {
             "package": "symfony/assetic-bundle",
@@ -64,7 +70,7 @@
         {
             "package": "symfony/symfony",
             "version": "2.0.x-dev",
-            "source-reference": "e78a7baeac0a8fb31de4bf92e5b6efd7e3baec59"
+            "source-reference": "24696641db7ae7441b49cc29a7e59c5fd63005c3"
         },
         {
             "package": "twig/extensions",
@@ -80,7 +86,13 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "4679ad51c5390648b7ea4c8f0ecd2c0c344145ba"
+            "alias-pretty-version": "1.8.x-dev",
+            "alias-version": "1.8.9999999.9999999-dev"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "source-reference": "73da773aaad0f97f2e967ec8241b8adf7b1e03d2"
         }
     ],
     "packages-dev": null,
@@ -90,7 +102,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "twig/extensions": 20,
-        "lyra/admin-bundle": 20,
         "mgiagnoni/blog-bundle": 20
     }
 }

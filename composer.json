@@ -7,7 +7,7 @@
         "symfony/assetic-bundle": "2.0.*",
         "sensio/distribution-bundle": "2.0.*",
         "sensio/generator-bundle": "2.0.*",
-        "lyra/admin-bundle": "dev-master",
+        "lyra/admin-bundle": "2.0.*",
         "mgiagnoni/blog-bundle": "dev-master"
     }
 }
