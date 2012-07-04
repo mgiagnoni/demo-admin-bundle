@@ -1,4 +1,14 @@
 {
+    "name": "lyra/demo-admin-bundle",
+    "description": "Demo project to easily try out LyraAdminBundle",
+    "keywords": ["symfony", "admin", "backend", "jquery", "jquery-ui"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Massimo Giagnoni",
+            "email": "gimassimo@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-0": { "": "src/" }
     },
