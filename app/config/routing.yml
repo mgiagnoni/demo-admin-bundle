@@ -1,2 +1,6 @@
+LyraDemoBundle:
+    resource: "@LyraDemoBundle/Resources/config/routing.yml"
+    prefix:   /
+
 LyraAdminBundle:
     resource: "@LyraAdminBundle/Resources/config/routing.yml"
