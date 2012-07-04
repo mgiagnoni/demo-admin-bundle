@@ -1,5 +1,5 @@
 {
-    "hash": "f1eee09b2b00a1dd0bea6d43a6942af2",
+    "hash": "8a8804a2efafda890c440cdb9b9d0adf",
     "packages": [
         {
             "package": "doctrine/common",
@@ -14,7 +14,7 @@
         {
             "package": "doctrine/orm",
             "version": "2.1.x-dev",
-            "source-reference": "417b6b0e5e81c4da90745728b3f05bd5fcb5cccd"
+            "source-reference": "ab851ab91464596b8b3f2d25644764e360d704b7"
         },
         {
             "package": "kriswallsmith/assetic",
@@ -28,8 +28,8 @@
         },
         {
             "package": "mgiagnoni/blog-bundle",
-            "version": "dev-master",
-            "source-reference": "f539f5b743295c0a33432eff62a5abf88d807ebc"
+            "version": "2.0.x-dev",
+            "source-reference": "7593e9f2cbf7cb50c487d3c5b01f67e30d687bfa"
         },
         {
             "package": "monolog/monolog",
@@ -47,20 +47,7 @@
         },
         {
             "package": "swiftmailer/swiftmailer",
-            "version": "dev-master",
-            "alias-pretty-version": "4.1.x-dev",
-            "alias-version": "4.1.9999999.9999999-dev"
-        },
-        {
-            "package": "swiftmailer/swiftmailer",
-            "version": "dev-master",
-            "alias-pretty-version": "4.2.x-dev",
-            "alias-version": "4.2.9999999.9999999-dev"
-        },
-        {
-            "package": "swiftmailer/swiftmailer",
-            "version": "dev-master",
-            "source-reference": "627e1f7a7952e6659d7125931024a97a5482a15c"
+            "version": "v4.1.8"
         },
         {
             "package": "symfony/assetic-bundle",
@@ -70,18 +57,12 @@
         {
             "package": "symfony/symfony",
             "version": "2.0.x-dev",
-            "source-reference": "24696641db7ae7441b49cc29a7e59c5fd63005c3"
+            "source-reference": "c1fea1d8c8cf684c31c10847fcdc7557402fd992"
         },
         {
             "package": "twig/extensions",
             "version": "dev-master",
             "source-reference": "feb6d3f10c411e2631997c0a905aa581c80305c1"
-        },
-        {
-            "package": "twig/twig",
-            "version": "dev-master",
-            "alias-pretty-version": "1.8.x-dev",
-            "alias-version": "1.8.9999999.9999999-dev"
         },
         {
             "package": "twig/twig",
@@ -101,7 +82,6 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "twig/extensions": 20,
-        "mgiagnoni/blog-bundle": 20
+        "twig/extensions": 20
     }
 }

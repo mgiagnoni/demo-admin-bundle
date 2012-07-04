@@ -1,0 +1,10 @@
+lyra_demo_homepage:
+    pattern:  /
+    defaults: { _controller: LyraDemoBundle:Default:index }
+
+login:
+    pattern:   /login
+    defaults:  { _controller: LyraDemoBundle:Security:login }
+
+login_check:
+    pattern:   /login_check
