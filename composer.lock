@@ -38,8 +38,8 @@
         {
             "package": "lyra/admin-bundle",
             "version": "dev-master",
-            "source-reference": "6a878b064e459671b7f7fe3c83636ef2513c45b2",
-            "commit-date": "1341490813"
+            "source-reference": "017adcfa28ab52b2a527a0d6e5a600fa86ec17ca",
+            "commit-date": "1341610760"
         },
         {
             "package": "mgiagnoni/blog-bundle",
@@ -108,8 +108,8 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "6b5be0b9717c781953850cd190ee4e718a5c4a5a",
-            "commit-date": "1341492187"
+            "source-reference": "22470fdb2c1e0020f7f1337cbce75339bf35665c",
+            "commit-date": "1341596736"
         },
         {
             "package": "twig/extensions",
