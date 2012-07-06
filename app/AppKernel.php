@@ -17,6 +17,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Lyra\AdminBundle\LyraAdminBundle(),
             new MGI\BlogBundle\MGIBlogBundle(),
+            new MGI\ClassifiedsBundle\MGIClassifiedsBundle(),
             new Lyra\DemoBundle\LyraDemoBundle(),
         );
 

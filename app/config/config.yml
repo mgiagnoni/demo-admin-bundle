@@ -2,7 +2,7 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: '@MGIBlogBundle/Resources/config/lyra_admin.yml'}
-
+    - { resource: '@MGIClassifiedsBundle/Resources/config/lyra_admin.yml'}
 
 framework:
     #esi:             ~
