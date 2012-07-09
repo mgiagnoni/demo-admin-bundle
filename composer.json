@@ -23,5 +23,6 @@
         "lyra/admin-bundle": "2.0.*",
         "mgiagnoni/blog-bundle": "2.0.*",
         "mgiagnoni/classifieds-bundle": "2.0.*"
-    }
+    },
+    "minimum-stability": "dev"
 }
