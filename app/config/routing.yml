@@ -2,5 +2,9 @@ LyraDemoBundle:
     resource: "@LyraDemoBundle/Resources/config/routing.yml"
     prefix:   /
 
+MGIBlogBundle:
+    resource: "@MGIBlogBundle/Resources/config/routing.yml"
+    prefix: /blog
+
 LyraAdminBundle:
     resource: "@LyraAdminBundle/Resources/config/routing.yml"
